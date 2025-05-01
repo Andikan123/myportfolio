@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { FaDatabase, FaHtml5, FaJs, FaReact, FaRoute } from 'react-icons/fa';
+import { FaDatabase, FaGithub, FaHtml5, FaJs, FaReact, FaRoute } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 
 
@@ -46,6 +46,12 @@ export const skills = [
     title: 'React Query',
     icon: <FaDatabase className='h-16 w-16 text-emerald-500' />,
     text: 'Experienced in managing server-state efficiently with React Query, ensuring fast and optimized data fetching.',
+    proficiency: 90, },
+  {
+    id: nanoid(),
+    title: 'Github',
+    icon: <FaGithub  className='h-16 w-16 text-emerald-500' />,
+    text: 'Proficient in version control using Git and GitHub, including managing repositories, branches, pull requests, and collaboration with teams.',
     proficiency: 90, },
 ];
 
