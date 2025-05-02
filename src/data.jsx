@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaDatabase, FaGithub, FaHtml5, FaJs, FaReact, FaRoute } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
-
+import mixSnip from './assets/drnkmix.PNG'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -74,10 +74,10 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: mixSnip,
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    github: 'https://github.com/Andikan123/andyMix',
+    title: 'Cocktail mixmaster',
+    text: 'Cocktail Mix Master is a sleek and responsive web application that allows users to explore a vast collection of cocktail recipes. Users can search by drink name or ingredient, view detailed instructions, and discover random cocktails with just a click.',
   },
 ];

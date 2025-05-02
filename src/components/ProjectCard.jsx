@@ -13,7 +13,7 @@ const ProjectCard = ({ url, img, title, text, github }) => {
         />
       </div>
       <div className="p-6">
-        <h2 className="text-2xl font-bold text-gray-800 group-hover:text-emerald-600 transition">
+        <h2 className="text-2xl font-bold text-gray-800 group-hover:text-emerald-600 transition capitalize" style={{ fontFamily: 'Orbitron, sans-serif' }}>
           {title}
         </h2>
         <p className="mt-4 text-slate-600 leading-relaxed">{text}</p>
