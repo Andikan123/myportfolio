@@ -3,6 +3,9 @@ import { FaDatabase, FaGithub, FaHtml5, FaJs, FaReact, FaRoute } from 'react-ico
 import { SiTailwindcss } from 'react-icons/si';
 import mixSnip from './assets/drnkmix.PNG'
 import schoolSnip from './assets/schoolsnip.PNG'
+import chat from './assets/andikanchat.PNG'
+import kanmed from './assets/kanmedsnip.PNG'
+import tul from './assets/tul.PNG';
 import { SiRedux } from 'react-icons/si';
 
 
@@ -69,19 +72,19 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img:kanmed,
+    url: 'https://kanmedglobal.netlify.app/',
+    github: 'https://github.com/Andikan123/kanmedglobal',
+    title: 'Kanmed Global',
+    text: 'Kanmed Global is a comprehensive healthcare platform designed to connect patients with healthcare providers. It features a user-friendly interface for booking appointments, accessing medical records, and managing prescriptions. The platform is built with React and Redux, ensuring a responsive and efficient user experience across devices.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: tul,
+    url: 'https://tulaib.netlify.app/',
+    github: 'https://github.com/Andikan123/tulaib',
+    title: 'restaurant reservation',
+    text: 'This is a restaurant reservation app built with React and Redux. It features a user-friendly interface for browsing available restaurants, making reservations, and managing bookings. The app is designed to be responsive and accessible, providing a seamless experience for users on both desktop and mobile devices.',
   },
   {
     id: nanoid(),
@@ -98,5 +101,13 @@ export const projects = [
     github: 'https://github.com/Andikan123/Andikanschool',
     title: 'School System',
     text: 'A modern web application built with React and Redux for managing student, teacher, and staff data. It features a responsive dashboard, profile pages, attendance tracking, and dynamic forms for adding, updating, and deleting records. The app also includes theme toggling, search functionality, and a sleek UI optimized for both desktop and mobile devices.',
+  },
+  {
+    id: nanoid(),
+    img: chat,
+    url: 'https://andikanchat.netlify.app/',
+    github: 'https://github.com/Andikan123/AndyChat',
+    title: 'Chat Application',
+    text: 'A modern chat application built with React and Firebase. It supports real-time messaging using Firestore, user authentication with Firebase Auth, and dynamic user status updates. Users can sign in, view a list of other users, and engage in one-on-one conversations with real-time message syncing. Styled with a clean, responsive UI for a seamless chat experience.',
   },
 ];
